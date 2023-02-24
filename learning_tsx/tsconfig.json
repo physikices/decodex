@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "alvo": "es6",
+    "checkJs": false
+  },
+  "excluir": [
+    "node_modules"
+  ]
+}
