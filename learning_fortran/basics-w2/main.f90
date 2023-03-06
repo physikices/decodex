@@ -1,6 +1,11 @@
-program hello_world
+program reshape_test
 
   implicit none
-  print*, 'Olá mundo!'
+  integer, dimension(3, 4) :: data
+  integer :: i
 
-end program hello_world
+  data = reshape( [(i, i=1, 12)], [3, 4] )
+  
+  print*, data
+
+end program reshape_test
